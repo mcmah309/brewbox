@@ -445,15 +445,7 @@
 				"keyword.operator",
 			],
 			"settings": {
-				"foreground": "#E78A4E"
-			}
-		},
-		{
-			"scope": [
-				"keyword.operator",
-			],
-			"settings": {
-				"foreground": "#E78A4E"
+				"foreground": "#ff9651"
 			}
 		},
 		{
@@ -497,7 +489,7 @@
 				"constant.language",
 			],
 			"settings": {
-				"foreground": "#D3869B"
+				"foreground": "#ed91a9"
 			}
 		},
 		{
@@ -520,7 +512,7 @@
 				"meta.parameter"
 			],
 			"settings": {
-				"foreground": "#AE93C7"
+				"foreground": "#c2a27c"
 			}
 		},
 		{
@@ -571,7 +563,7 @@
 				"meta.macro.rust",
 			],
 			"settings": {
-				"fontStyle": "underline"
+				"fontStyle": "bold"
 			}
 		},
 	],
@@ -617,5 +609,17 @@
 		// "function.library:rust": "#E9B143",
 		// "macro.library:rust": "#E9B143",
 		// "method.library:rust": "#E9B143",
+		//
+		"lifetime": {
+			"foreground": "#ff97d7",
+			"fontStyle": "italic"
+		},
+		//
+		"variable.mutable": {
+			"fontStyle": "underline"
+		},
+		"parameter.mutable": {
+			"fontStyle": "underline"
+		}
 	}
 }
