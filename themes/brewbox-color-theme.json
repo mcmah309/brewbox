@@ -556,48 +556,31 @@
 				"foreground": "#F44747"
 			}
 		},
-		//************************************************************************//
-		{
-			"scope": [
-				"entity.name.function.macro.rust",
-				"meta.macro.rust",
-			],
-			"settings": {
-				"fontStyle": "bold"
-			}
-		},
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"builtinType:rust": "#709FA6",
+		"builtinType": "#709FA6",
 		//
-		"struct.defaultLibrary:rust": "#709FA6",
-		"type.defaultLibrary:rust": "#709FA6",
-		"typeAlias.defaultLibrary:rust": "#709FA6",
-		"namespace.defaultLibrary:rust": "#709FA6",
-		//
-		"struct.library:rust": "#709FA6",
-		"type.library:rust": "#709FA6",
-		"typeAlias.library:rust": "#709FA6",
-		"namespace.library:rust": "#709FA6",
+		"struct.defaultLibrary": "#709FA6",
+		"type.defaultLibrary": "#709FA6",
+		"typeAlias.defaultLibrary": "#709FA6",
+		"struct.library": "#709FA6",
+		"type.library": "#709FA6",
+		"typeAlias.library": "#709FA6",
 		//
 		"enum": "#d386e7",
+		"enum.defaultLibrary": "#ba98c2",
+		"enum.library": "#ba98c2",
 		//
-		"enum.defaultLibrary:rust": "#ba98c2",
-		//
-		"enum.library:rust": "#ba98c2",
-		//
-		"interface:rust": {
+		"interface": {
 			"foreground": "#B8DB87",
 			"italic": true
 		},
-		//
-		"interface.library:rust": {
+		"interface.library": {
 			"foreground": "#8EAB70",
 			"italic": true
 		},
-		//
-		"interface.defaultLibrary:rust": {
+		"interface.defaultLibrary": {
 			"foreground": "#8EAB70",
 			"italic": true
 		},
@@ -620,6 +603,12 @@
 		},
 		"parameter.mutable": {
 			"fontStyle": "underline"
+		},
+		//
+		"namespace": "#707972",
+		//
+		"macro": {
+			"fontStyle": "italic bold"
 		}
 	}
 }
