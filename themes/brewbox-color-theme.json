@@ -489,7 +489,7 @@
 				"support",
 			],
 			"settings": {
-				"foreground": "#89D0C5"
+				"foreground": "#88c8bf"
 			}
 		},
 		{
@@ -577,38 +577,45 @@
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"interface:rust": {
-			"italic": true,
-		},
-		//
 		"builtinType:rust": "#709FA6",
 		//
 		"struct.defaultLibrary:rust": "#709FA6",
-		"enum.defaultLibrary:rust": "#709FA6",
-		"interface.defaultLibrary:rust": {
-			"foreground": "#709FA6",
-			"italic": true,
-		},
 		"type.defaultLibrary:rust": "#709FA6",
 		"typeAlias.defaultLibrary:rust": "#709FA6",
 		"namespace.defaultLibrary:rust": "#709FA6",
 		//
 		"struct.library:rust": "#709FA6",
-		"enum.library:rust": "#709FA6",
-		"interface.library:rust": {
-			"foreground": "#709FA6",
-			"italic": true,
-		},
 		"type.library:rust": "#709FA6",
 		"typeAlias.library:rust": "#709FA6",
 		"namespace.library:rust": "#709FA6",
 		//
-		"function.defaultLibrary:rust": "#E9B143",
-		"macro.defaultLibrary:rust": "#E9B143",
-		"method.defaultLibrary:rust": "#E9B143",
+		"enum": "#dc8bf1",
 		//
-		"function.library:rust": "#E9B143",
-		"macro.library:rust": "#E9B143",
-		"method.library:rust": "#E9B143",
+		"enum.defaultLibrary:rust": "#ba98c2",
+		//
+		"enum.library:rust": "#ba98c2",
+		//
+		"interface:rust": {
+			"foreground": "#B8DB87",
+			"italic": true
+		},
+		//
+		"interface.library:rust": {
+			"foreground": "#8EAB70",
+			"italic": true
+		},
+		//
+		"interface.defaultLibrary:rust": {
+			"foreground": "#8EAB70",
+			"italic": true
+		},
+		// //
+		// "function.defaultLibrary:rust": "#E9B143",
+		// "macro.defaultLibrary:rust": "#E9B143",
+		// "method.defaultLibrary:rust": "#E9B143",
+		// //
+		// "function.library:rust": "#E9B143",
+		// "macro.library:rust": "#E9B143",
+		// "method.library:rust": "#E9B143",
 	}
 }
