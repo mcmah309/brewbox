@@ -463,7 +463,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#a8c556"
+				"foreground": "#6ebb82"
 			}
 		},
 		{
@@ -471,7 +471,7 @@
 				"constant.character.escape",
 			],
 			"settings": {
-				"foreground": "#4CBF99"
+				"foreground": "#2ccab8"
 			}
 		},
 		{
