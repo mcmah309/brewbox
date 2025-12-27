@@ -462,7 +462,7 @@
 				"entity.name.method",
 			],
 			"settings": {
-				"foreground": "#d8ad57"
+				"foreground": "#f2c366"
 			}
 		},
 		{
@@ -583,8 +583,8 @@
 		"enum.library:rust": "#8eb095",
 		"type.library:rust": "#8eb095",
 		"typeAlias.library:rust": "#7daea3d5",
-		"function.library:rust": "#d8a457",
-		"macro.library:rust": "#d8a457",
-		"method.library:rust": "#d8a457",
+		"function.library:rust": "#e8ad64",
+		"macro.library:rust": "#e8ad64",
+		"method.library:rust": "#e8ad64",
 	}
 }
