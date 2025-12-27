@@ -2,12 +2,21 @@
   "name": "brewbox",
   "displayName": "brewbox",
   "description": "brewbox theme",
-  "version": "0.0.1",
+  "repository": "https://github.com/mcmah309/brewbox",
+  "version": "0.0.4",
+  "publisher": "mcmah309",
   "engines": {
-    "vscode": "^1.107.0"
+    "vscode": "^1.106.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "gruvbox",
+    "coffee",
+    "theme",
+    "brown"
   ],
   "contributes": {
     "themes": [
