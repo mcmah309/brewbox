@@ -452,6 +452,7 @@
 			"scope": [
 				"entity.name.function",
 				"entity.name.method",
+				"support.function"
 			],
 			"settings": {
 				"foreground": "#f2c366"
@@ -462,7 +463,7 @@
 				"string",
 			],
 			"settings": {
-				"foreground": "#A9B665"
+				"foreground": "#a8c556"
 			}
 		},
 		{
@@ -475,10 +476,9 @@
 		},
 		{
 			"scope": [
-				// "entity.name.class",
-				// "entity.name.type",
 				"entity.name",
-				"support",
+				"support.class",
+				"support.type",
 			],
 			"settings": {
 				"foreground": "#88c8bf"
@@ -520,11 +520,20 @@
 			"scope": [
 				"variable",
 				"variable.other.enummember",
+				"meta.attribute",
 			],
 			"settings": {
 				"foreground": "#EBDBB2"
 			}
 		},
+		// {
+		// 	"scope": [
+		// 		"meta.attribute"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#B8DB87"
+		// 	}
+		// },
 		{
 			"scope": [
 				"token.debug-token"
