@@ -504,7 +504,10 @@
 			"scope": [
 				"comment",
 				"string.comment",
-				"punctuation.definition.comment"
+				"punctuation",
+				// "punctuation.definition.comment",
+				// "punctuation.definition.parameters",
+				// "punctuation.terminator"
 			],
 			"settings": {
 				"foreground": "#928374",

@@ -31,8 +31,11 @@ pub struct DocumentViewerProps {
     search: ReadSignal<Option<serde_json::Value>>,
 }
 
+// comment
+
+/// Doc comment
 #[component]
-pub fn DocumentViewer(props: DocumentViewerProps) -> Element {
+pub(crate) fn DocumentViewer(props: DocumentViewerProps) -> Element {
     let DocumentViewerProps {
         id: document_id,
         search,
@@ -42,6 +45,7 @@ pub fn DocumentViewer(props: DocumentViewerProps) -> Element {
     let loading_document: Resource<Reported<()>> = use_resource(move || async move {
         let bytes = if let Some(document_id) = &*document_id.read() {
             todo!("Load \n document")
+            x[0];
         } else if let Some(file_data) = &*document_file_to_read.read() {
             let bytes = file_data.read_bytes().await.error(()).reported()?;
             bytes
