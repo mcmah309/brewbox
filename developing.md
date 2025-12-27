@@ -1,1 +1,3 @@
 https://github.com/rust-lang/rust-analyzer/blob/8c5a68e214578d4ccbb65fa8c48a4efd5c82697f/editors/code/package.json#L3550
+
+`vsce publish`
