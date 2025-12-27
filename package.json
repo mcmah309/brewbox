@@ -1,0 +1,21 @@
+{
+  "name": "brewbox",
+  "displayName": "brewbox",
+  "description": "brewbox theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "brewbox",
+        "uiTheme": "vs-dark",
+        "path": "./themes/brewbox-color-theme.json"
+      }
+    ]
+  }
+}
