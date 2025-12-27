@@ -509,7 +509,8 @@
 		{
 			"scope": [
 				"variable.parameter",
-				"meta.parameter"
+				"meta.parameter",
+				"support.variable"
 			],
 			"settings": {
 				"foreground": "#c2a27c"
