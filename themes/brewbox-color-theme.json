@@ -582,7 +582,7 @@
 		"struct.library:rust": "#8eb095",
 		"enum.library:rust": "#8eb095",
 		"type.library:rust": "#8eb095",
-		"typeAlias.library:rust": "#7daea3d5",
+		"typeAlias.library:rust": "#8eb095",
 		// "function.library:rust": "#e8ad64",
 		// "macro.library:rust": "#e8ad64",
 		// "method.library:rust": "#e8ad64",
