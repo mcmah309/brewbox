@@ -527,6 +527,15 @@
 		},
 		{
 			"scope": [
+				"entity.name.decorator"
+			],
+			"settings": {
+				"foreground": "#EBDBB2",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
 				"meta.attribute"
 			],
 			"settings": {
@@ -614,10 +623,10 @@
 			"fontStyle": "underline"
 		},
 		//
-		"namespace": "#707972",
+		"namespace": "#9a9a9a",
 		//
 		"macro": {
-			"fontStyle": "italic bold"
+			"fontStyle": "italic"
 		}
 	}
 }
