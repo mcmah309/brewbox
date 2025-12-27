@@ -1090,12 +1090,14 @@
 		//************************************************************************//
 		{
 			"scope": [
-				// "source.rust",
+				"entity.name.function.macro.rust",
+				"meta.macro.rust",
 			],
 			"settings": {
-				"foreground": "#AE93C7"
+				"fontStyle": "underline"
 			}
 		},
+		
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {

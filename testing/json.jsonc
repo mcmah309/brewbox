@@ -1,0 +1,53 @@
+{
+    "tokenColors": [
+        {
+            "scope": [
+                "keyword",
+                "storage.type.function",
+                "storage.type.class",
+                "storage.type.enum",
+                "storage.type.interface",
+                "storage.type.property",
+                "storage.type.extends",
+                "storage.type",
+                "storage.modifier",
+            ],
+            "settings": {
+                "foreground": "#EA6962"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator",
+            ],
+            "settings": {
+                "foreground": "#E78A4E"
+            }
+        },
+        {
+            "scope": [
+                "keyword.operator",
+            ],
+            "settings": {
+                "foreground": "#E78A4E"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "entity.name.method",
+            ],
+            "settings": {
+                "foreground": "#D8A657"
+            }
+        },
+        {
+            "scope": [
+                "string",
+            ],
+            "settings": {
+                "foreground": "#A9B665"
+            }
+        }
+    ]
+}
