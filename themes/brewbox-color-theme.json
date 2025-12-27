@@ -520,20 +520,19 @@
 			"scope": [
 				"variable",
 				"variable.other.enummember",
-				"meta.attribute",
 			],
 			"settings": {
 				"foreground": "#EBDBB2"
 			}
 		},
-		// {
-		// 	"scope": [
-		// 		"meta.attribute"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#B8DB87"
-		// 	}
-		// },
+		{
+			"scope": [
+				"meta.attribute"
+			],
+			"settings": {
+				"foreground": "#a8c556"
+			}
+		},
 		{
 			"scope": [
 				"token.debug-token"
