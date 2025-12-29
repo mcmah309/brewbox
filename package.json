@@ -3,7 +3,7 @@
   "displayName": "brewbox",
   "description": "brewbox theme",
   "repository": "https://github.com/mcmah309/brewbox",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "publisher": "mcmah309",
   "engines": {
     "vscode": "^1.106.0"
