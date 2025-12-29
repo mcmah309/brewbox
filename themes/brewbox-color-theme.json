@@ -574,6 +574,22 @@
 				"foreground": "#F44747"
 			}
 		},
+		// Language specific
+		//************************************************************************//
+		// Markdown
+		{
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"punctuation.definition.raw.markdown",
+				"punctuation.definition.list.begin.markdown",
+				"punctuation.definition.bold.markdown",
+				"markup.bold.markdown",
+			],
+			"settings": {
+				"foreground": "#f2c366"
+			}
+		},
+
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
